@@ -1,0 +1,226 @@
+:root {
+    --logo-text-color: #2196F3;
+    --header-logo: #000000;
+    --footer-logo: #FFFFFF;
+    --main-bg-color: #FFFFFF;
+    --slogan-bg-color: #2F303A;
+    --team-bg-color: #F5F4FA;
+    --footer-bg-color: #2F303A;
+    --action-color: #2196F3;
+    --main-text-color: #212121;
+    --text-color: #757575;
+    --bright-text: #FFFFFF;
+    --footer-contacts: rgba(255, 255, 255, 0.6);
+    --portfolio-button-color: #F5F4FA;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', 'Verdana', sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+/* general styles */
+.list-none {
+    list-style: none;
+}
+
+.logo-link,
+.nav-link,
+.hd-link,
+.footer-link {
+    text-decoration: none;
+}
+/* header */
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--header-logo);
+}
+
+.logo-text {
+    color: var(--logo-text-color);
+}
+
+/* header links hover focus */
+.nav-link:hover,
+.nav-link:focus,
+.hd-link:hover,
+.hd-link:focus {
+    color: var(--action-color);
+}
+
+.nav-link {
+    color: var(--main-text-color);
+}
+
+.active-link {
+    color: var(--action-color);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.hd-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+/* main page action button section */
+.slogan {
+    background-color: var(--slogan-bg-color);
+    color: var(--bright-text);
+}
+
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--action-color);
+    color: var(--bright-text);
+    cursor: pointer;
+}
+
+/* benefits section */
+.hidden-hd {
+    visibility: hidden;
+}
+
+.benefits .text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.benefits-hd {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* expertise section */
+.expertie-hd {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+/* team section */
+.team {
+    background-color: var(--team-bg-color);
+}
+
+.team-hd {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-member{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.job-title {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+/* portfolio page filter */
+.portfolio-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--portfolio-button-color);
+    cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: var(--action-color);
+    color: var(--bright-text)
+}
+
+/* portfolio page results */
+.result-hd {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-result {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+
+/* footer section */
+.footer {
+    background-color: var(--footer-bg-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--footer-logo);
+}
+
+/* footer links hover focus */
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--action-color);
+}
+
+.footer-address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--bright-text);
+}
+
+.footer-mail,
+.footer-tel {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-contacts);
+}
