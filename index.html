@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css"/> 
 </head>
 <body>
@@ -15,7 +16,11 @@
     <header>
         
         <!-- navigation bar -->
+        <div class="container">
         <a href="./index.html" class="header-logo logo-link"> <span class="logo-text">Web</span>Studio</a>
+        </div>
+
+        <div class="container">
         <nav class="nav">
             <ul class="list-none">
                 <li><a href="./index.html" class="nav-link active-link">Студия</a></li>
@@ -23,10 +28,14 @@
                 <li><a href="" class="nav-link">Контакты</a></li>
             </ul>
         </nav>
+        </div>
+
+    <div class="container">
         <ul class="header-contacts list-none" >
             <li><a href="mailto:info@devstudio.com" class="hd-link link">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="hd-link link">+38 096 111 11 11</a></li>
         </ul>
+    </div>
     </header>
 
     <!-- main content -->
@@ -34,13 +43,16 @@
         
         <!-- action button -->
         <section class="slogan">
+        <div class="container">
             <h1 class="hero">Эффективные решения <br/>
                 для вашего бизнеса</h1>
             <button type="button" class="button">Заказать услугу</button>
+        </div>
         </section>
 
         <!-- features -->
         <section class="benefits">
+        <div class="container">
             <h2 class="hidden-hd"> Наши преимущества </h2>
             <ul class="list-none">
                 <li>
@@ -67,10 +79,12 @@
                         плановых заданий.</p>
                 </li>
             </ul>
+        </div>
         </section>
 
         <!-- expertise -->
         <section class="expertise">
+        <div class="container">
             <h2 class="expertie-hd">Чем мы занимаемся</h2>
             <ul class="list-none">
                 <li>
@@ -85,10 +99,12 @@
                     <a href=""><img src="./images/box-three.jpg" alt="Подбор цвета" width="370"></a>
                 </li>
             </ul>
+        </div>
         </section>
         
         <!-- team -->
         <section class="team">
+        <div class="container">
             <h2 class="team-hd">Наша команда</h2>
             <ul class="list-none">
                 <li>
@@ -115,14 +131,18 @@
                     <p class="job-title">UI Designer</p>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
 
     <!-- main page footer -->
     <footer class="footer">
+        <div class="container">
         <a href="./index.html" class="footer-logo logo-link"> <span class="logo-text">Web</span>Studio </a>
-        
+        </div>
+
         <!-- contacts -->
+        <div class="container">
         <address>        
             <ul class="list-none">
                 <li><a href="" class="footer-address footer-link">г. Киев, пр-т Леси Украинки, 26</a></li>
@@ -130,6 +150,7 @@
                 <li><a href="tel:+380961111111" class="footer-tel footer-link">+38 096 111 11 11</a></li>
             </ul> 
         </address>
+        </div>
     </footer>
 
 </body>

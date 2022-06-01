@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 
@@ -16,7 +17,11 @@
    <header>
         
     <!-- navigation bar -->
+    <div class="container">
     <a href="./index.html" class="header-logo logo-link"> <span class="logo-text">Web</span>Studio</a>
+    </div>
+    
+    <div class="container">
     <nav class="nav">
         <ul class="list-none">
             <li><a href="./index.html" class="nav-link ">Студия</a></li>
@@ -24,10 +29,14 @@
             <li><a href="" class="nav-link">Контакты</a></li>
         </ul>
     </nav>
+    </div>
+
+    <div class="container">
     <ul class="header-contacts list-none" >
         <li><a href="mailto:info@devstudio.com" class="hd-link link">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111" class="hd-link link">+38 096 111 11 11</a></li>
     </ul>
+    </div>
 </header>
     
     <main>
@@ -37,6 +46,8 @@
 
             <!-- filter list -->
             <h2 class="hidden-hd">Фильтр</h2>
+
+            <div class="container">
             <ul class="list-none">
                 <li><button type="button" class="portfolio-button">Все</button></li>
                 <li><button type="button" class="portfolio-button">Веб-сайты</button></li>
@@ -44,9 +55,12 @@
                 <li><button type="button" class="portfolio-button">Дизайн</button></li>
                 <li><button type="button" class="portfolio-button">Маркетинг</button></li>
             </ul>
+            </div>
 
             <!-- results list -->
             <h2 class="hidden-hd">Результаты примеров</h2>
+            
+            <div class="container">
             <ul class="list-none">
                 <li>
                     <img src="./images/result-one.jpg" alt="Сайт на ноутбуке" width="370">
@@ -102,14 +116,18 @@
                     <p class="portfolio-result">Приложение</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
 
     <!-- footer section -->
     <footer class="footer">
+        <div class="container">
         <a href="./index.html" class="footer-logo logo-link"> <span class="logo-text">Web</span>Studio </a>
-        
+        </div>
+
         <!-- contacts -->
+        <div class="container">
         <address>        
             <ul class="list-none">
                 <li><a href="" class="footer-address footer-link">г. Киев, пр-т Леси Украинки, 26</a></li>
@@ -117,6 +135,7 @@
                 <li><a href="tel:+380961111111" class="footer-tel footer-link">+38 096 111 11 11</a></li>
             </ul> 
         </address>
+        </div>
     </footer>
 </body>
 </html>
